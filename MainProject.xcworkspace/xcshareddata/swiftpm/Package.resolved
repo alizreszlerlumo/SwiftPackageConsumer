@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LibraryA",
+        "repositoryURL": "https://github.com/alizreszlerlumo/SwiftPackageLibraryA.git",
+        "state": {
+          "branch": null,
+          "revision": "bba4fecfd91b74b5bb5d40fd6a784c391845f81f",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
