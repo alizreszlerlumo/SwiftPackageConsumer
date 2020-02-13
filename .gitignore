@@ -1,5 +1,6 @@
 # Xcode user files
-xcuserdata/
+xcuserdata/*
+MainProject/xcworkspace/xcuserdata/*
 
 .DS_Store
 /.build

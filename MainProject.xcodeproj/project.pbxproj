@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD21D57723F4C96300909C73 /* LibraryB in Frameworks */ = {isa = PBXBuildFile; productRef = CD21D57623F4C96300909C73 /* LibraryB */; };
 		CD92D9CB23F4C57E00AFA0BB /* LibraryA in Frameworks */ = {isa = PBXBuildFile; productRef = CD92D9CA23F4C57E00AFA0BB /* LibraryA */; };
 		CDBBDD2B23F35EE300AFA5F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBBDD2A23F35EE300AFA5F0 /* AppDelegate.swift */; };
 		CDBBDD2D23F35EE300AFA5F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBBDD2C23F35EE300AFA5F0 /* SceneDelegate.swift */; };
@@ -33,6 +34,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD92D9CB23F4C57E00AFA0BB /* LibraryA in Frameworks */,
+				CD21D57723F4C96300909C73 /* LibraryB in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +106,7 @@
 			name = MainProject;
 			packageProductDependencies = (
 				CD92D9CA23F4C57E00AFA0BB /* LibraryA */,
+				CD21D57623F4C96300909C73 /* LibraryB */,
 			);
 			productName = MainProject;
 			productReference = CDBBDD2723F35EE300AFA5F0 /* MainProject.app */;
@@ -135,6 +138,7 @@
 			mainGroup = CDBBDD1E23F35EE300AFA5F0;
 			packageReferences = (
 				CD92D9C923F4C57E00AFA0BB /* XCRemoteSwiftPackageReference "SwiftPackageLibraryA" */,
+				CD21D57523F4C96300909C73 /* XCRemoteSwiftPackageReference "SwiftPackageLibraryB" */,
 			);
 			productRefGroup = CDBBDD2823F35EE300AFA5F0 /* Products */;
 			projectDirPath = "";
@@ -372,6 +376,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		CD21D57523F4C96300909C73 /* XCRemoteSwiftPackageReference "SwiftPackageLibraryB" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alizreszlerlumo/SwiftPackageLibraryB.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		CD92D9C923F4C57E00AFA0BB /* XCRemoteSwiftPackageReference "SwiftPackageLibraryA" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/alizreszlerlumo/SwiftPackageLibraryA.git";
@@ -383,6 +395,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		CD21D57623F4C96300909C73 /* LibraryB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD21D57523F4C96300909C73 /* XCRemoteSwiftPackageReference "SwiftPackageLibraryB" */;
+			productName = LibraryB;
+		};
 		CD92D9CA23F4C57E00AFA0BB /* LibraryA */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = CD92D9C923F4C57E00AFA0BB /* XCRemoteSwiftPackageReference "SwiftPackageLibraryA" */;
