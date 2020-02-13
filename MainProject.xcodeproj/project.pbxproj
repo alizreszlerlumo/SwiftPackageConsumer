@@ -372,8 +372,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/alizreszlerlumo/SwiftPackageLibraryB.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				branch = aliz/dev;
+				kind = branch;
 			};
 		};
 		CD92D9C923F4C57E00AFA0BB /* XCRemoteSwiftPackageReference "SwiftPackageLibraryA" */ = {
