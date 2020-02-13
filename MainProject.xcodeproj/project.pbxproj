@@ -44,7 +44,6 @@
 		CDBBDD1E23F35EE300AFA5F0 = {
 			isa = PBXGroup;
 			children = (
-				CDBBDD4523F3662500AFA5F0 /* Packages */,
 				CDBBDD2923F35EE300AFA5F0 /* MainProject */,
 				CDBBDD2823F35EE300AFA5F0 /* Products */,
 				CDBBDD4A23F366DF00AFA5F0 /* Frameworks */,
@@ -71,13 +70,6 @@
 				CDBBDD3823F35EE500AFA5F0 /* Info.plist */,
 			);
 			path = MainProject;
-			sourceTree = "<group>";
-		};
-		CDBBDD4523F3662500AFA5F0 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Packages;
 			sourceTree = "<group>";
 		};
 		CDBBDD4A23F366DF00AFA5F0 /* Frameworks */ = {

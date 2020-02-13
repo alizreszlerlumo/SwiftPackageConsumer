@@ -8,6 +8,7 @@
 
 import UIKit
 import LibraryA
+import LibraryB
 
 class ViewController: UIViewController {
 
@@ -22,7 +23,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func libraryBPress(_ sender: Any) {
-
+        let b = LibraryB()
+        b.printMyName()
     }
 }
 
